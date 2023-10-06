@@ -4,12 +4,12 @@
 
 # ALM (AutoHotkey License Manager)
 
-ALM is a simple-to-use toolkit to protect your software from copyrighting by binding your software to a specific Mainboard and CPU serial number. Written in AutoHotkey v2
+ALM is a simple-to-use toolkit to protect your software from software piracy by binding your software to a specific Mainboard and CPU serial number. Written in AutoHotkey v2
 
 
 ## Features
 
-- Binds to CPU and MainBoard serial number
+- Binds to CPU and Mainboard serial number
 - Generated license key is valid across Windows installations on the same PC
 - Uses SH-256 for both "HW ID" (Hardware ID) and "CPU ID" encryption.
 - Fast Response (Usually under 1 second to validate license key)
