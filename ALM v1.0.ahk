@@ -21,8 +21,8 @@ class ALM {
 		if (ALM.HWID != "") {
 			return ALM.HWID
 		}
-		MainSN := Trim(StrReplace(CliData("wmic baseboard get serialnumber"), "SerialNumber"), " `n`r`t")
-		CPUSN := Trim(StrReplace(CliData("wmic cpu get ProcessorId"), "ProcessorId"), " `n`r`t")
+		MainSN := ComObjGet("winmgmts:").ExecQuery("SELECT SerialNumber FROM Win32_BaseBoard").ItemIndex(0).SerialNumber
+		CPUSN := ComObjGet("winmgmts:").ExecQuery("SELECT ProcessorId FROM Win32_Processor").ItemIndex(0).ProcessorId
 		HWID := MainSN . CPUSN
 		return ALM.HWID := hash(&HWID)
 	}
