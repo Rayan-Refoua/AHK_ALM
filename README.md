@@ -1,5 +1,5 @@
 
-![Logo]LogoURL)
+![Logo](https://raw.githubusercontent.com/Rayan-Refoua/AHK_ALM/main/Logo.png)
 
 
 # ALM (AutoHotkey License Manager)
