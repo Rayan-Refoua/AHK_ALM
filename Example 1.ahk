@@ -22,4 +22,4 @@ if (Result == 0){
 		ExitApp
 	}
 }
-;Result := ALM.WriteLicense()
+MsgBox("App Started!")
