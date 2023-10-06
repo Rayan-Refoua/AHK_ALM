@@ -6,6 +6,8 @@
 
 ALM is a simple-to-use toolkit to protect your software from software piracy by binding your software to a specific Mainboard and CPU serial number. Written in AutoHotkey v2
 
+ALM is a hardware-locked licensing toolkit for AutoHotkey v2, It uses Mainboard and CPU serial number as a hardware fingerprint and generates a license key from it. The license key is embedded in the script directory and verified at runtime against the current hardware fingerprint. If they mismatch, the software gets blocked from execution.
+
 
 ## Features
 
