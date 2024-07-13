@@ -2,13 +2,13 @@
 
 #Include ALM v1.0.ahk
 
-;A key that will be used as unique app identifier.
-;Can be anything but it should be at least 6 characters or more
-;In this case this AppId will change in each app build so the end user have to acquire new licensekeys to user newer builds.
-;You can set it as a static string so it that the license key works on future builds.
+; A key that will be used as a unique app identifier.
+; Can be anything but it should be at least 6 characters or more
+; In this case, this AppId will change in each app build so the end user has to acquire a new license to user newer builds.
+; You can set it as a static string so that the license key works on future builds.
 ALM.AppID := "SampleAppName v1.0"
 
-;Returns true if the license check is successful and false if otherwise.
+; Returns true if the license check is successful and false if otherwise.
 Result := ALM.checkLicense()
 
 if (Result == 0){
