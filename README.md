@@ -19,7 +19,7 @@ ALM is a hardware-locked licensing toolkit for AutoHotkey v2, It uses the Mainbo
 
 ## Useage
 
-- ALM.AppID : This must be set before the generation of a license key. It Can be anything but it should be at least 6 characters or more (Like this -> ALM.AppID := "SampleAppName v1.0" )
+- ALM.AppID : This must be set before the generation of a license key. It Can be anything but it should be at least 6 characters or more (Like this -> ALM.AppID := "SampleAppName v1.0") **The AppID also acts as a "Secret Key", If anyone has your AppID, He/She can easily generate license keys with the "keygen.ahk" utility.**
 - generateHWID() : Generates the unique HWID of the PC based on CPU & Mainboard serial numbers
 - generateKey() : Generates the unique software key, based on HWID (from above) and the "AppID" that has been set before executing this. (HWID will be calculated if not present from before)
 - WriteLicense() : Writes the license to the file, next to the main script file/executable. (this will generate the valid "license key" and write it to the file)
