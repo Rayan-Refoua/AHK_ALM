@@ -17,7 +17,7 @@ ALM is a hardware-locked licensing toolkit for AutoHotkey v2, It uses the Mainbo
 - Keygen included (Generate license keys in seconds for your clients)
 - Differentiate between multiple software by unique "App ID" so with one HWID, each "License Key" would work only for the designated software.
 
-## Useage
+## Usage
 
 - ALM.AppID : This must be set before the generation of a license key. It Can be anything but it should be at least 6 characters or more (Like this -> ALM.AppID := "SampleAppName v1.0")
 
