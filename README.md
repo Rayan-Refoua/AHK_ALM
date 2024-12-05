@@ -2,7 +2,7 @@
 ![Logo](https://raw.githubusercontent.com/Rayan-Refoua/AHK_ALM/main/Logo.png)
 
 
-# ALM (AutoHotkey License Manager)
+# ALM (AutoHotkey License Manager) (AHK V2)
 
 ALM is a hardware-locked licensing toolkit for AutoHotkey v2, It uses the Mainboard and CPU serial number as a hardware fingerprint and generates a license key from it. The license key is embedded in the script directory and verified at runtime against the current hardware fingerprint. If they mismatch, the software gets blocked from execution.
 
